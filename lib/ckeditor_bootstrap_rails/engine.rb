@@ -4,8 +4,8 @@ module CkeditorBootstrap
 
       initializer :stylesheets do |app|
         app.config.assets.precompile += %w(
-          ckeditor_bootstrap_rails/contents.css
-          ckeditor_bootstrap_rails/editor.css
+          ckeditor_bootstrap/contents.css
+          ckeditor_bootstrap/editor.css
         )
       end
 
