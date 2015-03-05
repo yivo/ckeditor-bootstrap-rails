@@ -168,7 +168,7 @@ a.cke_dialog_tab_disabled {
 }
 
 .cke_dialog_close_button {
-    background-image: url(images/close.png);
+    background-image: image_url('ckeditor_bootstrap/close.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     position: absolute;
@@ -181,7 +181,7 @@ a.cke_dialog_tab_disabled {
 }
 
 .cke_hidpi .cke_dialog_close_button {
-    background-image: url(images/hidpi/close.png);
+    background-image: image_url('ckeditor_bootstrap/hidpi/close.png');
     background-size: 16px
 }
 
@@ -387,7 +387,7 @@ select.cke_dialog_ui_input_select {
 
 .cke_dialog a.cke_btn_reset {
     float: right;
-    background: url(images/refresh.png) top left no-repeat;
+    background: image_url('ckeditor_bootstrap/refresh.png') top left no-repeat;
     width: 16px;
     height: 16px;
     border: 1px none;
@@ -404,7 +404,7 @@ select.cke_dialog_ui_input_select {
 }
 
 .cke_dialog a.cke_btn_locked {
-    background-image: url(images/lock.png)
+    background-image: image_url('ckeditor_bootstrap/lock.png');
 }
 
 .cke_dialog a.cke_btn_locked .cke_icon {
@@ -412,7 +412,7 @@ select.cke_dialog_ui_input_select {
 }
 
 .cke_dialog a.cke_btn_unlocked {
-    background-image: url(images/lock-open.png)
+    background-image: image_url('ckeditor_bootstrap/lock-open.png');
 }
 
 .cke_dialog .cke_btn_over {
@@ -422,7 +422,7 @@ select.cke_dialog_ui_input_select {
 
 .cke_hidpi .cke_dialog a.cke_btn_reset {
     background-size: 16px;
-    background-image: url(images/hidpi/refresh.png)
+    background-image: image_url('ckeditor_bootstrap/hidpi/refresh.png');
 }
 
 .cke_hidpi .cke_dialog a.cke_btn_locked, .cke_hidpi .cke_dialog a.cke_btn_unlocked {
@@ -430,11 +430,11 @@ select.cke_dialog_ui_input_select {
 }
 
 .cke_hidpi .cke_dialog a.cke_btn_locked {
-    background-image: url(images/hidpi/lock.png)
+    background-image: image_url('ckeditor_bootstrap/hidpi/lock.png');
 }
 
 .cke_hidpi .cke_dialog a.cke_btn_unlocked {
-    background-image: url(images/hidpi/lock-open.png)
+    background-image: image_url('ckeditor_bootstrap/hidpi/lock-open.png');
 }
 
 .cke_rtl .cke_dialog a.cke_btn_reset {
