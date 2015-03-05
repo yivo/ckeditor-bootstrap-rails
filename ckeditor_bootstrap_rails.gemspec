@@ -1,20 +1,14 @@
-$:.push File.expand_path("../lib", __FILE__)
+# encoding: utf-8
+require File.expand_path('../lib/ckeditor_bootstrap_rails/version', __FILE__)
 
-# Maintain your gem's version:
-require "ckeditor_bootstrap_rails/version"
-
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "ckeditor_bootstrap_rails"
-  s.version     = CkeditorBootstrapRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CkeditorBootstrapRails."
-  s.description = "TODO: Description of CkeditorBootstrapRails."
-  s.license     = "MIT"
-
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-
-  s.add_dependency "rails", "~> 4.1.9"
+  s.name        = 'ckeditor_bootstrap_rails'
+  s.version     = CkeditorBootstrap::Rails::VERSION
+  s.authors     = ['Yaroslav Konoplov']
+  s.email       = ['the.yivo@gmail.com']
+  s.homepage    = 'https://github.com/yivo/ckeditor_bootstrap_rails'
+  s.summary     = 'an asset gemification of the github.com/Kunstmaan/BootstrapCK4-Skin'
+  s.description = 'This is ckeditor theme (github.com/Kunstmaan/BootstrapCK4-Skin) integrated with rails'
+  s.license     = 'MIT'
+  s.files       = Dir['{lib}/**/*']
 end
