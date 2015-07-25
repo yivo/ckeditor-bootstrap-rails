@@ -2,7 +2,7 @@
 require File.expand_path('../lib/ckeditor_bootstrap_rails/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'ckeditor_bootstrap_rails'
+  s.name        = 'ckeditor-bootstrap-rails'
   s.version     = CkeditorBootstrap::Rails::VERSION
   s.authors     = ['Yaroslav Konoplov']
   s.email       = ['the.yivo@gmail.com']

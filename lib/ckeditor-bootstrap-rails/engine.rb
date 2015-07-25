@@ -20,7 +20,7 @@ module CkeditorBootstrap
           icons_hidpi.png
         )
 
-        images.map! { |path| "ckeditor_bootstrap/#{path}" }
+        images.map! { |path| "ckeditor-bootstrap/#{path}" }
         app.config.assets.precompile += images
       end
 
@@ -30,8 +30,8 @@ module CkeditorBootstrap
         # editor.css can be requested by fonts plugin
         # contents.css is requested from ckeditor iframe
         app.config.assets.precompile += %w(
-          ckeditor_bootstrap/contents.css
-          ckeditor_bootstrap/editor.css
+          ckeditor-bootstrap/contents.css
+          ckeditor-bootstrap/editor.css
         )
       end
 
