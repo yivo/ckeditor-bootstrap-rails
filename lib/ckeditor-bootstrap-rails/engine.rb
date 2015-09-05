@@ -1,4 +1,4 @@
-module CkeditorBootstrap
+module CKEditorBootstrap
   module Rails
     class Engine < ::Rails::Engine
 

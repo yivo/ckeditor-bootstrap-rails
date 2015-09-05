@@ -1,5 +1,3 @@
-module CkeditorBootstrap
-  module Rails
-    VERSION = '1.0.0'
-  end
+module CKEditorBootstrap
+  VERSION = '1.0.0'
 end
